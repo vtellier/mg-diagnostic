@@ -72,7 +72,17 @@ footer {
   width: 100%;
   background: #222;
   padding: 75px;
-  color: #DDD;
+  color: #444;
+  font-size: 0.7em;
+  text-align: center }
+    footer a {
+    color: #444; }
+    footer a:hover {
+    color: #666; }
+
+@media screen and (max-width: 768px) {
+  footer {
+  padding: 25px; }
 }
 
 /**********************************************/
@@ -103,6 +113,6 @@ section#assainissement {
   }
 
 section#contact {
-  }
+  font-size: 2rem; }
 
 /**********************************************/
