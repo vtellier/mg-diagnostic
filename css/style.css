@@ -68,6 +68,13 @@ header {
     font-size: 1.2em;
     font-weight: 300; } }
 
+footer {
+  width: 100%;
+  background: #222;
+  padding: 75px;
+  color: #DDD;
+}
+
 /**********************************************/
 
 main section {
