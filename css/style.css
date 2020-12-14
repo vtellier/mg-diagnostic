@@ -1,0 +1,102 @@
+/**********************************************/
+/**********************************************/
+/************* MG Diagnostic ******************/
+/************ Vincent Tellier *****************/
+/**********************************************/
+/**********************************************/
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+html {
+  font-size: 75%; }
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none; }
+
+/**********************************************/
+
+.noMargin {
+  margin: 0;
+}
+
+/**********************************************/
+header {
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  background-image: url('../img/chantier1.jpg');
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  header div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 100%; }
+    header div h1 {
+      font-size: 6em;
+      font-weight: 100; }
+    header div h2 {
+      font-size: 2.5em;
+      font-weight: 300;
+      margin-top: 10px; }
+  header a {
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons/down-arrow.svg) center no-repeat;
+    background-size: 30px;
+    animation: bounce 0.4s ease infinite alternate; }
+
+@media screen and (max-width: 768px) {
+  header div h1 {
+    font-size: 5em; }
+  header div h2 {
+    font-size: 1.2em;
+    font-weight: 300; } }
+
+/**********************************************/
+
+main section {
+  padding: 200px 0; }
+  main section h2 {
+    padding: 50px 0 70px 30px;
+    display: block;
+    font-weight: 500;
+    font-size: 3em;
+  main section h3 {
+    font-weight: 400; }
+}
+
+section#nos-services {
+  padding: 50px 0 200px;
+  background: #EEEEEE; }
+  section#nos-services h2 { }
+  section#nos-services h3 {
+    font-weight: 400; }
+
+section#plomberie {
+  padding: 200px 0; }
+
+section#assainissement {
+  padding: 200px 0;
+  background: #DDDDDD;
+  }
+
+section#contact {
+  padding: 200px 0;
+  }
+/**********************************************/
