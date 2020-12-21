@@ -79,7 +79,7 @@ header {
 footer {
   width: 100%;
   background: #222;
-  padding: 50px;
+  padding: 50px 0;
   color: #444;
   font-size: 0.7em;
   text-align: center }
@@ -90,10 +90,35 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
-  padding: 25px; }
+  padding: 25px 0; }
 }
 
 /**********************************************/
+
+#phone-link {
+  position: fixed;
+  top: 2px;
+  right: 2px; }
+  #phone-link > div {
+    display:block;
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.4em;
+    transition: 100ms linear; }
+    #phone-link a {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      ms-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      text-align: center;
+      transition: 250ms ease; }
+  #phone-link > div:hover {
+    transform: scale(1.1); }
 
 main section {
   padding: 50px 0 200px; }
