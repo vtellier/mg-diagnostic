@@ -4,6 +4,19 @@
 /************ Vincent Tellier *****************/
 /**********************************************/
 /**********************************************/
+
+:root {
+    --bleu-nuit:       25, 25,112;
+    --bleu-acier:      26, 43, 60;
+    --bleu-roi:        0 , 35,102;
+    --bleu-indigo:     35, 68,107;
+    --bleu-cobalt:     34, 66,124;
+    --bleu-denim:      21, 96,189;
+    --bleu-pervenche: 204,204,255;
+    --bleu-fumee:     187,210,225;
+    --bleu-dragee:    223,243,255;
+}
+
 html, body {
   height: 100%; }
 
@@ -33,6 +46,7 @@ a:focus {
 }
 
 /**********************************************/
+
 header {
   width: 100%;
   height: 100%;
@@ -133,17 +147,16 @@ main section {
 
 section#nos-services {
   padding: 50px 0 200px;
-  background: #EEEEEE; }
+  background: rgb(var(--bleu-pervenche)); }
   section#nos-services h2 { }
   section#nos-services h3 {
     font-weight: 400; }
 
 section#plomberie {
-  }
+  background: white; }
 
 section#assainissement {
-  background: #DDDDDD;
-  }
+  background: rgb(var(--bleu-fumee)); }
 
 section#contact p {
   font-size: 2rem;
